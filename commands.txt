@@ -1,0 +1,64 @@
+
+This is where i will work on Emacs i will be training to use emacs in this folder
+ironiclly I'm using VIM to type this not any more added most of the tips using emacs :)
+=============================================================================================
+
+[frames]
+you can use a second frame with the shortcut : C-x 2 for a below frame or C-x 3 for side by side
+you can go back to a single frame by using C-x 1
+
+===================================================
+[cd open and save files]
+
+You can use M-x cd to change the directory to get the file you want to open
+You can use M-x dired allow you to open a directory explorer in emacs
+
+you can use eshell which is a shell written in elisp that emulates bash and work on all os
+the command is M-x eshell
+
+you can open files using C-x C-f
+
+you can save a file using C-x C-s
+you can save a file to a different buffer or file C-x C-w
+
+you can stop a command using C-g
+=======================================
+[Buffer commands]
+you can kill a buffer screen using C-x k
+you can cycle between buffers using C-x left or C-x right
+you can list buffers using C-x C-b
+you can go to a buffer if you know the name using C-x b
+
+you can write the file to a different buffer  using C-x C-w
+
+===========================================
+[Select Cut-copy-past-undo-redo]
+you can mark a region by pressing C-space and moving with arrow or C-(b-n-p-f)
+You can cut(kill)text by marking a region and the Using C-w
+you can copy text by marking a region and then usn M-w
+you can delete a line or kill line by using C-k
+you can paste(yank) the text by using C-y
+you can use the conventional cpy pates cut shortcuts by using M-x cua-mode
+you can undo changes using C-_ or C-/ or C-x u you can redo with the same command just use C-g to reverse the order
+
+===========================================
+[Navigation]
+you can navigate using the arrow keys or
+C-f for going right(forward) you can move one word at a time using M-f
+C-b for going left(backwards) you can move one word at a time using M-b
+C-p for going up (previous)
+C-n for going down (next)
+
+======================================
+[txt search]
+you can forward search using C-s
+you can reverse serch using C-r
+
+
+======================================
+[key binding info]
+you can get a list of all the keybinding in emacs by using M-x describe-binding
+you can get a describtion of a key binding by using M-x describe-key then you add the keybinding you want to che
+==============================
+you can customize emacs using the customize ui you can access it by using M-x customize
+you can also customize emacs using the init.el file
